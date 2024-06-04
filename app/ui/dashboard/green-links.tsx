@@ -2,7 +2,8 @@
 import {
   HomeIcon,
   ClockIcon,
-  FunnelIcon
+  FunnelIcon,
+  ChevronRightIcon
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -12,12 +13,15 @@ import clsx from 'clsx';
 const basePath = "/greencode"
 const links = [
   { name: 'Home', href: basePath, icon: HomeIcon },
-  {
-    name: 'throttle',
-    href: `${basePath}/throttle`,
-    icon: FunnelIcon,
-  },
-  { name: 'timer', href: `${basePath}/timer`, icon: ClockIcon },
+  // {
+  //   name: 'throttle',
+  //   href: `${basePath}/throttle`,
+  //   icon: FunnelIcon,
+  // },
+  // { name: 'timer', href: `${basePath}/timer`, icon: ClockIcon },
+  { name: 'code1', href: `${basePath}/code1`, icon: ChevronRightIcon },
+  { name: 'code2', href: `${basePath}/code2`, icon: ChevronRightIcon },
+  { name: 'code3', href: `${basePath}/code3`, icon: ChevronRightIcon },
 ];
 
 export function GreenLinks() {
