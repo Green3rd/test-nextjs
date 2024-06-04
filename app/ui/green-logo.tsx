@@ -1,4 +1,4 @@
-import { GlobeAsiaAustraliaIcon } from '@heroicons/react/24/outline';
+import { StarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
 
 export function GreenLogo() {
@@ -6,7 +6,7 @@ export function GreenLogo() {
     <div
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
-      <GlobeAsiaAustraliaIcon className="h-12 w-12 rotate-[15deg]" />
+      <StarIcon className="h-12 w-12 rotate-[15deg]" />
       <p className="text-[44px]">Green</p>
     </div>
   );
