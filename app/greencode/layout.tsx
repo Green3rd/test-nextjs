@@ -1,6 +1,6 @@
 import { SideNav } from '@/app/ui/dashboard/sidenav';
 import { GreenLogo } from '../ui/green-logo';
-import { GreenLinks } from '../ui/dashboard/green-links';
+import { GreenLinks } from '../ui/greencode/green-links';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
